@@ -18,58 +18,37 @@ export const Github = () => {
 export const TecnoIconos = [
   {
     id: 1,
+    tecno: 'HTML',
     icono: <Icon icon="vscode-icons:file-type-html" width="100" height="100" />,
   },
   {
     id: 2,
+    tecno: 'CSS',
     icono: <Icon icon="vscode-icons:file-type-css" width="100" height="100" />,
   },
   {
     id: 3,
+    tecno: 'JavaScript',
     icono: <Icon icon="logos:javascript" width="100" height="100" />,
   },
   {
     id: 4,
+    tecno: 'React',
     icono: <Icon icon="logos:react" width="100" height="100" />,
   },
   {
     id: 5,
+    tecno: 'Spring',
     icono: <Icon icon="logos:spring-icon" width="100" height="100" />,
   },
   {
     id: 6,
+    tecno: 'MySQL',
     icono: <Icon icon="logos:mysql" width="100" height="100" />,
   },
   {
     id: 7,
+    tecno: 'Hibernate',
     icono: <Icon icon="logos:hibernate" width="100" height="100" />,
   },
 ]
-
-export const HTML = () => {
-  return <Icon icon="vscode-icons:file-type-html" width="100" height="100" />
-}
-
-export const CSS = () => {
-  return <Icon icon="vscode-icons:file-type-css" width="100" height="100" />
-}
-
-export const JS = () => {
-  return <Icon icon="logos:javascript" width="100" height="100" />
-}
-
-export const React = () => {
-  return <Icon icon="logos:react" width="100" height="100" />
-}
-
-export const Spring = () => {
-  return <Icon icon="logos:spring-icon" width="100" height="100" />
-}
-
-export const MySQL = () => {
-  return <Icon icon="logos:mysql" width="100" height="100" />
-}
-
-export const Hibernate = () => {
-  return <Icon icon="logos:hibernate" width="100" height="100" />
-}
