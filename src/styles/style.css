@@ -8,16 +8,19 @@
     vertical-align: baseline;
     font-family: 'Cutive Mono', monospace;
 }
+
 a {
     text-decoration: none;
 }
+
 /* Fin de estructura */
 
 /* Encabezado */
 #fondoCV {
-    background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(131,131,131,1) 50%, rgba(61,61,61,1) 100%);
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(131, 131, 131, 1) 50%, rgba(61, 61, 61, 1) 100%);
 }
+
 header {
     background-color: rgb(0, 0, 0);
     display: flex;
@@ -25,18 +28,21 @@ header {
     align-items: center;
     font-weight: bold;
 }
+
 #perfil {
     height: 35vh;
     border-radius: 50%;
     border: 0.2rem solid rgb(255, 255, 255);
     margin: 2%;
 }
+
 h1 {
     background-color: #000;
     color: rgb(255, 255, 255);
     text-align: center;
     width: 100%;
 }
+
 /* Fin de encabezado */
 
 /* Cuerpo principal */
@@ -47,21 +53,26 @@ h1 {
     flex-direction: column;
     justify-content: space-between;
 }
+
 .secciones {
     padding: 0.5rem;
     text-align: center;
-    line-height : 3vw;
+    line-height: 3vw;
 }
-.cajaSpan{
+
+.cajaSpan {
     padding: 0.1vh;
     border: solid 1px black;
 }
-.tecno{
+
+.tecno {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
 }
-.tecnoIcono{
+
+.tecnoIcono {
     padding: 1rem;
 }
 
@@ -71,6 +82,7 @@ h1 {
     justify-self: center;
     margin: 1rem;
 }
+
 .contacto {
     border-radius: 1vh;
     color: white;
@@ -79,12 +91,15 @@ h1 {
     margin: 1rem;
     transition: all 0.5s linear;
 }
+
 #in {
     background-color: #0e76a8;
 }
+
 #gh {
     background-color: #000;
 }
+
 /* Fin de redes */
 
 /* Boton con link */
@@ -92,40 +107,52 @@ h1 {
     text-align: center;
     color: white;
 }
+
 .boton {
     background-color: black;
     padding: 0.5rem;
     margin: 2vh 41vw;
     border-radius: 1rem;
 }
+
 .boton #sobreMi:hover {
     color: #FFD700;
 }
+
 /* Fin del boton */
 
 /* Pie de pagina */
 footer {
     background-color: rgb(0, 0, 0);
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     padding: 0.5rem;
+    position: absolute;
+    bottom: 0;
+    width: 99.17vw;
     color: white;
     font-size: 0.9rem;
+    text-align: center;
 }
+
 #copyright {
     padding: 0.5rem;
 }
+
 .link-footer {
     color: rgb(128, 230, 243);
     padding: 0rem 0.5rem;
 }
+
 .link-footer:hover {
     color: #FFD700;
 }
+
 #espacio {
     margin: 0rem 1rem;
 }
+
 /* Fin de pie de pagina */
 
 /* Pagina de repositorios */
@@ -143,51 +170,58 @@ header p {
     text-align: center;
     margin: 2vh 30vw;
     color: #000;
-    background: rgb(238,238,238);
-    background: linear-gradient(90deg, rgba(238,238,238,1) 0%, rgba(255,215,0,1) 100%);
+    background: rgb(238, 238, 238);
+    background: linear-gradient(90deg, rgba(238, 238, 238, 1) 0%, rgba(255, 215, 0, 1) 100%);
     border-radius: 0.3rem;
     text-shadow: black 0.01rem 0.01rem;
 }
 
 /* Repositorios */
-#mainRepo{
+#mainRepo {
     display: flex;
     justify-content: center;
     flex-flow: column nowrap;
 }
+
 #fondo2 {
-    background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(131,131,131,1) 50%, rgba(61,61,61,1) 100%);
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(131, 131, 131, 1) 50%, rgba(61, 61, 61, 1) 100%);
 }
+
 #contenedorRepo {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
+
 .repos {
     display: flex;
     justify-content: center;
     flex-flow: column nowrap;
     margin: 3vh 25vw;
 }
+
 .tamañoRepo {
     border-radius: 1vh;
     width: 47vw;
     height: 50vh;
 }
-.descripcionRepo{
+
+.descripcionRepo {
     font-size: 1.2rem;
     font-weight: bold;
     margin-bottom: 16px;
     color: #FFD700;
     text-shadow: black 0.01rem 0.01rem;
 }
-#aclaracion{
+
+#aclaracion {
     text-align: center;
     color: #000000;
     text-shadow: black 0.01rem 0.01rem;
 }
-.codigo{
+
+.codigo {
     background-color: #fff;
     padding: 1rem;
     width: 4.5rem;
@@ -195,10 +229,12 @@ header p {
     margin-left: 44%;
     border-radius: 1rem;
 }
-.codigo a{
+
+.codigo a {
     text-decoration: none;
     color: #000;
 }
+
 .codigo a:hover {
     color: #FFD700;
 }
@@ -209,12 +245,14 @@ header p {
     text-align: center;
     color: #000;
 }
+
 .boton2 {
     background-color: #fff;
     padding: 1rem;
     margin: 2vh 47vw;
     border-radius: 1rem;
 }
+
 .boton2 #inicio:hover {
     color: #FFD700;
 }
@@ -224,14 +262,16 @@ header p {
 @media (min-width: 1024px) {
     .contacto:hover {
         color: #FFD700;
-        transform: scale(2,2);
+        transform: scale(2, 2);
         padding: 1.2vh 1.2vw;
         box-shadow: 0.1rem 0.1rem 0.9rem 0.1rem #000;
     }
+
     .boton {
-            margin: 2vh 45vw;
+        margin: 2vh 45vw;
     }
 }
+
 @media (min-width: 2560px) {
     .boton {
         margin: 2vh 48vw;
@@ -244,6 +284,7 @@ header p {
         margin: 2vh 38vw;
     }
 }
+
 @media (max-width: 768px) {
     .repos {
         display: flex;
@@ -251,6 +292,7 @@ header p {
         flex-flow: column nowrap;
         margin: 1vh 0vw;
     }
+
     #contenedorRepo {
         display: flex;
         flex-direction: column;
@@ -258,22 +300,27 @@ header p {
         align-items: center;
         flex-wrap: wrap;
     }
+
     .tamañoRepo {
         margin: 1vw 10vw;
         width: 80vw;
         height: 50vh;
     }
 }
+
 @media (max-width: 550px) {
     .secciones {
-        line-height : 10vw;
+        line-height: 10vw;
     }
+
     #descripcion {
         margin: 3vh 5vw;
     }
+
     .boton2 {
         margin: 2vh 43vw;
     }
+
     .tamañoRepo {
         height: 27vh;
     }
