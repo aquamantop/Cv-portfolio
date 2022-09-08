@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import "../styles/style.css";
 import { Copyright } from "./Iconos";
 
 export default function Footer() {

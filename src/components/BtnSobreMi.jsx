@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import "../styles/style.css";
 
 export default function BtnSobreMi(props) {
     return (
