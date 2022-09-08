@@ -6,7 +6,7 @@ import SobreMi from "./components/SobreMi";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/SobreMi' element={<SobreMi></SobreMi>}></Route>
