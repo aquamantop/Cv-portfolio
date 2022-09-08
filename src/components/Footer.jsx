@@ -1,15 +1,15 @@
-import { Link } from "react-router-dom";
-import { Copyright } from "./Iconos";
+import { Link } from 'react-router-dom'
+import { Copyright } from './Iconos'
 
 export default function Footer() {
   return (
     <footer>
       <Copyright></Copyright>
       <Link
-        to={"https://github.com/aquamantop/CV"}
-        className='link-footer'
-        target='_blank'
-        rel='noopener noreferrer'
+        to={'https://github.com/aquamantop/CV'}
+        className="link-footer"
+        target="_blank"
+        rel="noopener noreferrer"
       >
         <span>Franco Rampazzo</span>
       </Link>
@@ -17,15 +17,15 @@ export default function Footer() {
         /
         <Link
           to={
-            "/https://drive.google.com/file/d/13T1Gli1n1G93TPHPw8QXkaGX7FqPFElu/view?usp=sharing"
+            '/https://drive.google.com/file/d/13T1Gli1n1G93TPHPw8QXkaGX7FqPFElu/view?usp=sharing'
           }
-          className='link-footer'
-          target='_blank'
-          rel='noopener noreferrer'
+          className="link-footer"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           PDF
         </Link>
       </span>
     </footer>
-  );
+  )
 }

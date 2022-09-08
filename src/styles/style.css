@@ -67,7 +67,8 @@ h1 {
     border-radius: 1vh;
     color: white;
     font-size: 2rem;
-    padding: 0.5rem 0.5rem 0.3rem;
+    padding: 0.5rem 0.7rem 0.3rem;
+    margin: 1rem;
     transition: all 0.5s linear;
 }
 #in {
@@ -85,7 +86,7 @@ h1 {
 }
 .boton {
     background-color: black;
-    padding: 0.5rem 3rem;
+    padding: 0.5rem;
     margin: 2vh 41vw;
     border-radius: 1rem;
 }
