@@ -1,5 +1,6 @@
 import React from 'react'
 import BtnSobreMi from './BtnSobreMi'
+import Footer from './Footer'
 import Header from './Header'
 import { DatosPersonales, Formacion, Tecnologias, Redes } from './Secciones'
 
@@ -14,6 +15,7 @@ export default function Home() {
         <Redes />
         <BtnSobreMi link={'/SobreMi'} titulo={'Sobre mi'} />
       </main>
+      <Footer clase='footerHome'></Footer>
     </React.Fragment>
   )
 }

@@ -1,14 +1,29 @@
 import React from 'react'
-import { Outlet } from 'react-router-dom'
+import { Repositorios } from './Articulo'
+import Footer from './Footer'
 import BtnSobreMi from './BtnSobreMi'
 import Header from './Header'
 
 export default function SobreMi() {
   return (
-    <React.Fragment>
+    <div id="fondo2">
       <Header titulo={'Mis repositorios'} />
-      <BtnSobreMi link={'/'} titulo={'Inicio'} />
-      <Outlet></Outlet>
-    </React.Fragment>
+      <main id="mainRepo">
+        <section id="descripcion">
+          <p>
+            Estudio programación en la carrera de Certified Tech Developer en
+            Digital House a traves de la beca otorgada por Mercado Libre junto
+            con Globant, donde empecé a aprender acerca de la programación Full
+            Stack desde la práctica con las herramientas y tecnologias actuales.
+          </p>
+        </section>
+        <p id="aclaracion">Click en las imágenes para ir al sitio</p>
+        <div id="contenedorRepo">
+          <Repositorios></Repositorios>
+          <BtnSobreMi link={'/'} titulo={'Inicio'} />
+        </div>
+      </main>
+      <Footer clase="footerRepo"></Footer>
+    </div>
   )
 }
