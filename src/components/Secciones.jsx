@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
-import { Github, Linkedin } from './Iconos'
+import { CSS, Github, Hibernate, HTML, JS, Linkedin, MySQL, React, Spring } from './Iconos'
+import { TecnoIconos } from './Iconos'
 
 export function DatosPersonales() {
   return (
@@ -22,12 +23,12 @@ export function Tecnologias() {
   return (
     <section className="secciones">
       <h2>TECNOLOGIAS</h2>
-      <ul type="none">
-        <li>Spring Boot</li>
-        <li>JavaScript</li>
-        <li>HTML/CSS</li>
-        <li>Hibernate</li>
-        <li>MySQL</li>
+      <ul type="none" className='tecno'>
+        {TecnoIconos.map(e => {
+          return (
+          <li key={e.id}>{e.icono}</li>
+          )
+        })}
       </ul>
     </section>
   )
