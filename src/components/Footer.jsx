@@ -2,7 +2,7 @@ import { Copyright } from './Iconos'
 
 export default function Footer(props) {
   return (
-    <footer className={props.clase}>
+    <footer>
       <Copyright></Copyright>
       <a
         href="https://github.com/aquamantop/CV"

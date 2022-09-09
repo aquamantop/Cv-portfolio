@@ -13,9 +13,9 @@ export default function Home() {
         <Formacion />
         <Tecnologias />
         <Redes />
-        <BtnSobreMi link={'/SobreMi'} titulo={'Sobre mi'} />
+        <BtnSobreMi clase={"boton"} link={'/Cv-react-app/SobreMi'} titulo={'Sobre mi'} iden={"sobreMi"}/>
       </main>
-      <Footer clase='footerHome'></Footer>
+      <Footer></Footer>
     </React.Fragment>
   )
 }

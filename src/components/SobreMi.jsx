@@ -20,10 +20,10 @@ export default function SobreMi() {
         <p id="aclaracion">Click en las imágenes para ir al sitio</p>
         <div id="contenedorRepo">
           <Repositorios></Repositorios>
-          <BtnSobreMi link={'/'} titulo={'Inicio'} />
+          <BtnSobreMi clase={"boton2"} link={'/'} titulo={'Inicio'} iden={"inicio"}/>
         </div>
       </main>
-      <Footer clase="footerRepo"></Footer>
+      <Footer></Footer>
     </div>
   )
 }
