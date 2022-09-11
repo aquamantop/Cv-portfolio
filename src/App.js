@@ -9,7 +9,7 @@ function App() {
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path='/' element={<Home/>}></Route>
-        <Route path='/Cv-react-app/SobreMi' element={<SobreMi/>}></Route>
+        <Route path='SobreMi' element={<SobreMi/>}></Route>
       </Routes>
     </BrowserRouter>
   );

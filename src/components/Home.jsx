@@ -13,7 +13,7 @@ export default function Home() {
         <Formacion />
         <Tecnologias />
         <Redes />
-        <BtnSobreMi clase={"boton"} link={'/Cv-react-app/SobreMi'} titulo={'Sobre mi'} iden={"sobreMi"}/>
+        <BtnSobreMi clase={"boton"} link={'SobreMi'} titulo={'Sobre mi'} iden={"sobreMi"}/>
       </main>
       <Footer></Footer>
     </React.Fragment>
