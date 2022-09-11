@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Cv-react-app/static/css/main.c3381493.css",
-    "main.js": "/Cv-react-app/static/js/main.804aba9e.js",
+    "main.js": "/Cv-react-app/static/js/main.cbfb207f.js",
     "static/media/ppt.png": "/Cv-react-app/static/media/ppt.fdd9a41fe1e5ddd40f68.png",
     "static/media/form.png": "/Cv-react-app/static/media/form.01362f4812ea61433fde.png",
     "static/media/tip-calculator.png": "/Cv-react-app/static/media/tip-calculator.90b6b6c22d2d53fd5000.png",
@@ -9,10 +9,10 @@
     "static/media/rating.png": "/Cv-react-app/static/media/rating.e72b336d6ab32b63053b.png",
     "index.html": "/Cv-react-app/index.html",
     "main.c3381493.css.map": "/Cv-react-app/static/css/main.c3381493.css.map",
-    "main.804aba9e.js.map": "/Cv-react-app/static/js/main.804aba9e.js.map"
+    "main.cbfb207f.js.map": "/Cv-react-app/static/js/main.cbfb207f.js.map"
   },
   "entrypoints": [
     "static/css/main.c3381493.css",
-    "static/js/main.804aba9e.js"
+    "static/js/main.cbfb207f.js"
   ]
 }
