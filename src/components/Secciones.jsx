@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom'
 import { Github, Linkedin } from './Iconos'
 import { TecnoIconos } from './Iconos'
 
@@ -55,24 +54,23 @@ export function Formacion() {
 export function Redes() {
   return (
     <section id="redes">
-      <Link
-        to={'https://www.linkedin.com/in/franco-rodrigo-rampazzo-969b331aa/'}
+      <a href='https://www.linkedin.com/in/franco-rodrigo-rampazzo-969b331aa/'
         className="contacto"
         id="in"
         target="_blank"
         rel="noopener noreferrer"
       >
         <Linkedin />
-      </Link>
-      <Link
-        to={'https://github.com/aquamantop'}
+      </a>
+      <a
+        href='https://github.com/aquamantop'
         className="contacto"
         id="gh"
         target="_blank"
         rel="noopener noreferrer"
       >
         <Github />
-      </Link>
+      </a>
     </section>
   )
 }
