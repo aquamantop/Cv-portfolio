@@ -1,5 +1,19 @@
 import { Articulos } from '../Json/articulos'
 
+function proyecto(id, codigo){
+  if(id === 1){
+    return <br></br>
+  } else {
+    return( 
+    <button className="codigo">
+          <a href={codigo} target="_blank" rel="noopener noreferrer">
+            Código
+          </a>
+    </button>
+    )
+  }
+}
+
 export function Repositorios() {
   return Articulos.map((e) => {
     return (
@@ -12,12 +26,10 @@ export function Repositorios() {
             className="tamañoRepo"
           />
         </a>
-        <button className="codigo">
-          <a href={e.linkCodigo} target="_blank" rel="noopener noreferrer">
-            Código
-          </a>
-        </button>
+        {(proyecto(e.id, e.linkCodigo))}
       </article>
     )
   })
 }
+
+

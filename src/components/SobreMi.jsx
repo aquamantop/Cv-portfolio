@@ -1,5 +1,5 @@
 import React from 'react'
-import { Repositorios } from './Articulo'
+import { Repositorios } from './Repositorios'
 import Footer from './Footer'
 import BtnSobreMi from './BtnSobreMi'
 import Header from './Header'
