@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/Cv-react-app/static/css/main.c3381493.css",
-    "main.js": "/Cv-react-app/static/js/main.4270937c.js",
+    "main.js": "/Cv-react-app/static/js/main.c4984e8d.js",
+    "static/media/proyecto-final.png": "/Cv-react-app/static/media/proyecto-final.88a0b8282c39f0ad155e.png",
     "static/media/ppt.png": "/Cv-react-app/static/media/ppt.fdd9a41fe1e5ddd40f68.png",
     "static/media/form.png": "/Cv-react-app/static/media/form.01362f4812ea61433fde.png",
     "static/media/tip-calculator.png": "/Cv-react-app/static/media/tip-calculator.90b6b6c22d2d53fd5000.png",
@@ -9,10 +10,10 @@
     "static/media/rating.png": "/Cv-react-app/static/media/rating.e72b336d6ab32b63053b.png",
     "index.html": "/Cv-react-app/index.html",
     "main.c3381493.css.map": "/Cv-react-app/static/css/main.c3381493.css.map",
-    "main.4270937c.js.map": "/Cv-react-app/static/js/main.4270937c.js.map"
+    "main.c4984e8d.js.map": "/Cv-react-app/static/js/main.c4984e8d.js.map"
   },
   "entrypoints": [
     "static/css/main.c3381493.css",
-    "static/js/main.4270937c.js"
+    "static/js/main.c4984e8d.js"
   ]
 }
