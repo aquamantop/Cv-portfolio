@@ -323,3 +323,9 @@ header p {
         height: 27vh;
     }
 }
+
+@media (max-width: 1024px) {
+    main {
+        margin-bottom: 2rem;
+    }
+}
