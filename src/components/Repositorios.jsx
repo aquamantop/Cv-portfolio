@@ -19,13 +19,11 @@ export function Repositorios() {
     return (
       <article key={e.id} className="repos">
         <p className="descripcionRepo">{e.descripcion}</p>
-        <a href={e.linkRepo} target="_blank" rel="noopener noreferrer">
-          <img
+        <img
             src={e.img}
             alt={e.alt}
             className="tamañoRepo"
-          />
-        </a>
+        />
         {(proyecto(e.id, e.linkCodigo))}
       </article>
     )
