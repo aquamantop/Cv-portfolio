@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Cv-react-app/static/css/main.c3381493.css",
+    "main.css": "/Cv-react-app/static/css/main.7e5b632f.css",
     "main.js": "/Cv-react-app/static/js/main.815efad5.js",
     "static/media/proyecto-final.png": "/Cv-react-app/static/media/proyecto-final.88a0b8282c39f0ad155e.png",
     "static/media/ppt.png": "/Cv-react-app/static/media/ppt.fdd9a41fe1e5ddd40f68.png",
@@ -9,11 +9,11 @@
     "static/media/clinica.png": "/Cv-react-app/static/media/clinica.3dba083c9f6296a74f50.png",
     "static/media/rating.png": "/Cv-react-app/static/media/rating.e72b336d6ab32b63053b.png",
     "index.html": "/Cv-react-app/index.html",
-    "main.c3381493.css.map": "/Cv-react-app/static/css/main.c3381493.css.map",
+    "main.7e5b632f.css.map": "/Cv-react-app/static/css/main.7e5b632f.css.map",
     "main.815efad5.js.map": "/Cv-react-app/static/js/main.815efad5.js.map"
   },
   "entrypoints": [
-    "static/css/main.c3381493.css",
+    "static/css/main.7e5b632f.css",
     "static/js/main.815efad5.js"
   ]
 }
