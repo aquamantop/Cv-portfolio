@@ -8,9 +8,7 @@ import proyecto from '../Img/proyecto-final.png'
 export const Articulos = [
     {
         id: 1,
-        descripcion: "Sitio de alquiler de autos. Este es el proyecto integrador final del Certified Tech Developer en Digital House. El proyecto se desarrollo bajo la metolodia de sprints (4) " +
-        "a lo largo de 2 meses con un grupo de trabajo, yo estuve encargado del backend de la pagina creando la API del sitio y ayudando en lo que es base de datos " +
-        "y la infraestructura en AWS.",
+        descripcion: "Sitio de alquiler de autos. Este es el proyecto integrador final del Certified Tech Developer en Digital House. El proyecto se desarrollo bajo la metolodia de sprints (4) a lo largo de 2 meses con un grupo de trabajo mediante GitLab, yo estuve encargado del backend de la pagina creando la API del sitio y ayudando en lo que es base de datos y la infraestructura en AWS.",
         img: proyecto,
         alt: "digital booking, alquiler de autos"
     },
