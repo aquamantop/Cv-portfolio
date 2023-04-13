@@ -39,13 +39,17 @@ export function Formacion() {
       <h2>FORMACIÓN ACADÉMICA</h2>
       <ul type="none">
         <li>
-          <span className="cajaSpan">2016-2023</span>: UBA
+          <span className="cajaSpan">2016-2024(prevista)</span>: UBA
         </li>
         <span>Licenciatura en Psicología</span>
         <li>
           <span className="cajaSpan">2021-2022</span>: Digital House
         </li>
         <span>Certified Tech Developer</span>
+        <li>
+          <span className="cajaSpan">2023(feb)-2023(dic)</span>: Digital House
+        </li>
+        <span>Backend Specialist</span>
       </ul>
     </section>
   )
