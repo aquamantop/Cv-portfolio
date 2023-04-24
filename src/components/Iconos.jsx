@@ -48,7 +48,7 @@ export const TecnoIconos = [
   },
   {
     id: 7,
-    tecno: 'Hibernate',
-    icono: <Icon icon="logos:hibernate" width="100" height="100" />,
+    tecno: 'Mongo',
+    icono: <Icon icon="vscode-icons:file-type-mongo" color="green" width="100" height="100" />,
   },
 ]
