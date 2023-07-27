@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Cv-react-app/static/css/main.0e607def.css",
-    "main.js": "/Cv-react-app/static/js/main.2c028eaa.js",
-    "static/media/proyecto-final.png": "/Cv-react-app/static/media/proyecto-final.88a0b8282c39f0ad155e.png",
-    "static/media/ppt.png": "/Cv-react-app/static/media/ppt.fdd9a41fe1e5ddd40f68.png",
-    "static/media/form.png": "/Cv-react-app/static/media/form.01362f4812ea61433fde.png",
-    "static/media/tip-calculator.png": "/Cv-react-app/static/media/tip-calculator.90b6b6c22d2d53fd5000.png",
-    "static/media/clinica.png": "/Cv-react-app/static/media/clinica.3dba083c9f6296a74f50.png",
-    "static/media/rating.png": "/Cv-react-app/static/media/rating.e72b336d6ab32b63053b.png",
-    "index.html": "/Cv-react-app/index.html",
-    "main.0e607def.css.map": "/Cv-react-app/static/css/main.0e607def.css.map",
-    "main.2c028eaa.js.map": "/Cv-react-app/static/js/main.2c028eaa.js.map"
+    "main.css": "/Cv-portfolio/static/css/main.0e607def.css",
+    "main.js": "/Cv-portfolio/static/js/main.e54c3c40.js",
+    "static/media/proyecto-final.png": "/Cv-portfolio/static/media/proyecto-final.88a0b8282c39f0ad155e.png",
+    "static/media/ppt.png": "/Cv-portfolio/static/media/ppt.fdd9a41fe1e5ddd40f68.png",
+    "static/media/form.png": "/Cv-portfolio/static/media/form.01362f4812ea61433fde.png",
+    "static/media/tip-calculator.png": "/Cv-portfolio/static/media/tip-calculator.90b6b6c22d2d53fd5000.png",
+    "static/media/clinica.png": "/Cv-portfolio/static/media/clinica.3dba083c9f6296a74f50.png",
+    "static/media/rating.png": "/Cv-portfolio/static/media/rating.e72b336d6ab32b63053b.png",
+    "index.html": "/Cv-portfolio/index.html",
+    "main.0e607def.css.map": "/Cv-portfolio/static/css/main.0e607def.css.map",
+    "main.e54c3c40.js.map": "/Cv-portfolio/static/js/main.e54c3c40.js.map"
   },
   "entrypoints": [
     "static/css/main.0e607def.css",
-    "static/js/main.2c028eaa.js"
+    "static/js/main.e54c3c40.js"
   ]
 }
