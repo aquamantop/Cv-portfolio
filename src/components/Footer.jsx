@@ -5,7 +5,7 @@ export default function Footer(props) {
     <footer>
       <Copyright></Copyright>
       <a
-        href="https://github.com/aquamantop/CV"
+        href="https://github.com/aquamantop/Cv-react-app"
         className="link-footer"
         target="_blank"
         rel="noopener noreferrer"

@@ -285,66 +285,6 @@ header p {
 }
 
 /* Media max */
-@media (max-width: 425px) {
-    #contenedor {
-        height: 150vh;
-    }
-    .boton {
-        margin: 2vh 38vw;
-    }
-}
-
-@media (max-width: 768px) {
-    #contenedor {
-        height: 120vh;
-    }
-    .boton {
-        margin: 2vh 38vw;
-    }
-    .repos {
-        display: flex;
-        justify-content: center;
-        flex-flow: column nowrap;
-        margin: 1vh 0vw;
-    }
-
-    #contenedorRepo {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-
-    .secciones {
-        line-height: 3vw;
-    }
-
-    .tamañoRepo {
-        margin: 1vw 10vw;
-        width: 80vw;
-        height: 50vh;
-    }
-}
-
-@media (max-width: 550px) {
-    .secciones {
-        line-height: 10vw;
-    }
-
-    #descripcion {
-        margin: 3vh 5vw;
-    }
-
-    .boton2 {
-        margin: 2vh 43vw;
-    }
-
-    .tamañoRepo {
-        height: 27vh;
-    }
-}
-
 @media (max-width: 1024px) {
     #contenedor {
         height: 80vh;
@@ -353,7 +293,93 @@ header p {
         line-height: 3vw;
     }
 
+    .tamañoRepo {
+        margin: 1vw 0vw;
+        width: 60vw;
+        height: 50vh;
+    }
+    .boton2 {
+        background-color: #fff;
+        padding: 1rem;
+        margin: 1vh 46vw 4rem;
+        border-radius: 1rem;
+    }
+    .codigo{
+        margin-left: 40%;
+    }
+
     main {
         margin-bottom: 2rem;
     }
+}
+
+@media (max-width: 768px) {
+    #contenedor {
+        height: 130vh;
+    }
+    .boton {
+        margin: 2vh 38vw;
+    }
+    .secciones {
+        line-height: 5vw;
+    }
+
+    /* REPOS */
+    .repos {
+        display: flex;
+        margin: 0vh 0vw;
+    }
+    .descripcionRepo{
+        margin-right: 20vw;
+    }
+    .codigo{
+        margin: 1% 43%;
+    }
+    #contenedorRepo {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .tamañoRepo {
+        margin: 1vw;
+        width: 75vw;
+        height: 40vh;
+    }
+}
+
+@media (max-width: 430px) {
+    #contenedor {
+        height: 130vh;
+    }
+    .boton {
+        margin: 2vh 38vw;
+    }
+    .secciones {
+        line-height: 8vw;
+    }
+
+    /* REPOS */
+    #descripcion{
+        margin: 10vw;
+    }
+    #textSobreMi{
+        margin: 1vh -10vw 1vh 1vw;
+        width: 70vw;
+    }
+    .repos {
+        display: flex;
+        margin: 0vh 0vw;
+    }
+    .descripcionRepo{
+        margin-right: 20vw;
+    }
+    .codigo{
+        margin: 1vh 45vw;
+    }
+    .tamañoRepo {
+        margin: 1vw;
+        width: 90vw;
+        height: 28vh;
+    }
+
 }

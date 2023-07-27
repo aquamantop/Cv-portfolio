@@ -10,7 +10,7 @@ export default function SobreMi() {
       <Header titulo={'Mis repositorios'} />
       <main id="mainRepo">
         <section id="descripcion">
-          <p>
+          <p id='textSobreMi'>
             Estudio programación en la carrera de Certified Tech Developer en
             Digital House a traves de la beca otorgada por Mercado Libre junto
             con Globant, donde empecé a aprender acerca de la programación Full

@@ -58,7 +58,7 @@ export function Formacion() {
 export function Redes() {
   return (
     <section id="redes">
-      <a href='https://www.linkedin.com/in/franco-rodrigo-rampazzo-969b331aa/'
+      <a href='https://www.linkedin.com/in/franco-rodrigo-rampazzo/'
         className="contacto"
         id="in"
         target="_blank"
