@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Cv-react-app/static/css/main.41f39ee9.css",
-    "main.js": "/Cv-react-app/static/js/main.47b6ffac.js",
+    "main.css": "/Cv-react-app/static/css/main.0e607def.css",
+    "main.js": "/Cv-react-app/static/js/main.2c028eaa.js",
     "static/media/proyecto-final.png": "/Cv-react-app/static/media/proyecto-final.88a0b8282c39f0ad155e.png",
     "static/media/ppt.png": "/Cv-react-app/static/media/ppt.fdd9a41fe1e5ddd40f68.png",
     "static/media/form.png": "/Cv-react-app/static/media/form.01362f4812ea61433fde.png",
@@ -9,11 +9,11 @@
     "static/media/clinica.png": "/Cv-react-app/static/media/clinica.3dba083c9f6296a74f50.png",
     "static/media/rating.png": "/Cv-react-app/static/media/rating.e72b336d6ab32b63053b.png",
     "index.html": "/Cv-react-app/index.html",
-    "main.41f39ee9.css.map": "/Cv-react-app/static/css/main.41f39ee9.css.map",
-    "main.47b6ffac.js.map": "/Cv-react-app/static/js/main.47b6ffac.js.map"
+    "main.0e607def.css.map": "/Cv-react-app/static/css/main.0e607def.css.map",
+    "main.2c028eaa.js.map": "/Cv-react-app/static/js/main.2c028eaa.js.map"
   },
   "entrypoints": [
-    "static/css/main.41f39ee9.css",
-    "static/js/main.47b6ffac.js"
+    "static/css/main.0e607def.css",
+    "static/js/main.2c028eaa.js"
   ]
 }
