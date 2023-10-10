@@ -15,7 +15,7 @@ export default function Footer(props) {
       <span>
         /
         <a
-          href="https://drive.google.com/file/d/13T1Gli1n1G93TPHPw8QXkaGX7FqPFElu/view?usp=sharing"
+          href="https://drive.google.com/file/d/1IjQ85cp84HeZjdBaS2EgRicI_cPyfm-H/view?usp=sharing"
           className="link-footer"
           target="_blank"
           rel="noopener noreferrer"
