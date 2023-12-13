@@ -17,7 +17,7 @@ export default function SobreMi() {
             Stack desde la práctica con las herramientas y tecnologias actuales.
           </p>
         </section>
-        {/* <p id="aclaracion">Click en las imágenes para ir al sitio</p> */}
+        <p id="aclaracion">Click en las imágenes para ir al sitio</p>
         <div id="contenedorRepo">
           <Repositorios></Repositorios>
           <BtnSobreMi clase={"boton2"} link={'/'} titulo={'Inicio'} iden={"inicio"}/>

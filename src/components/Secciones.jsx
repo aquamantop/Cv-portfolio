@@ -39,7 +39,7 @@ export function Formacion() {
       <h2>FORMACIÓN ACADÉMICA</h2>
       <ul type="none">
         <li>
-          <span className="cajaSpan">2016-2024(prevista)</span>: UBA
+          <span className="cajaSpan">2016-act.</span>: UBA
         </li>
         <span>Licenciatura en Psicología</span>
         <li>
@@ -58,7 +58,7 @@ export function Formacion() {
 export function Redes() {
   return (
     <section id="redes">
-      <a href='https://www.linkedin.com/in/franco-rodrigo-rampazzo/'
+      <a href='https://www.linkedin.com/in/franco-rampazzo/'
         className="contacto"
         id="in"
         target="_blank"
