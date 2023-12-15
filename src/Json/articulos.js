@@ -12,7 +12,7 @@ export const Articulos = [
         linkWeb: "http://me-sumo-frontend.s3-website-us-east-1.amazonaws.com/",
         linkCodigo: "https://github.com/aquamantop/Me-Sumo",
         img: mesumo,
-        alt: "digital booking, alquiler de autos"
+        alt: "Me sumo app"
     },
     {
         id: 2,
